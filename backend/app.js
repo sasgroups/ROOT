@@ -14,6 +14,9 @@ app.use(express.json());
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/members', require('./routes/memberRoutes'));
 app.use('/api/chits', require('./routes/chitRoutes'));
+app.use('/api/auctions', require('./routes/auctionRoutes'));
+app.use('/api/subscriptions', require('./routes/subscriptionRoutes'));
+app.use('/api/ledger', require('./routes/ledgerRoutes'));
 
 app.use((err, req, res, next) => {
   console.error(err.stack);

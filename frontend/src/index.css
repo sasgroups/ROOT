@@ -1,10 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* ===== THEME VARIABLES ===== */
 :root {
-  --primary-color: #ffc107;      /* Yellow */
-  --primary-dark: #e0a800;       /* Darker yellow */
-  --primary-light: #ffdb6e;      /* Light yellow */
-  --secondary-color: #000000;    /* Black */
-  --secondary-light: #333333;    /* Dark gray */
+  --primary-color:   #000000;     /* Yellow */
+  --primary-dark:   #333333;       /* Darker yellow */
+  --primary-light:#525151;     /* Light yellow */
+  --secondary-color:   #ffc107; /* Black */
+  --secondary-light:  #e0a800; /* Dark gray */
   --text-light: #ffffff;
   --text-dark: #212529;
   --bg-light: #f8f9fa;
